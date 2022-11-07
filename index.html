@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule Your Day</title>
+    <link
+      rel="shortcut icon"
+      href="./icons8-todo-list-48.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <section class="todo">
+      <nav class="nav" >
+        <div class="container">
+          <img src="./icons8-todo-list-48.png" alt="logo" class="nav__logo" />
+          <button type="button" class="nav__btn" id="nav_button">Dark mode</button>
+        </div>
+      </nav>
+
+      <div class="container design_todo" id="darkmode_design">
+        <div class="todo__app">
+          <h1>My TO-DO</h1>
+          <form class="todo__app-form">
+            <input
+              type="text"
+              placeholder="Add new task..."
+              class="todo__app-text"
+            />
+            <button type="submit" class="todo__app-addbtn">&plus;</button>
+          </form>
+          <ul></ul>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>

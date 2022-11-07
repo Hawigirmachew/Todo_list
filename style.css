@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.nav{
+  background-color:  #262e4c;
+}
+.nav .container {
+  justify-content: space-around;
+}
+.nav__logo {
+  max-width: 34px;
+  width: 100%;
+  height: 34px;
+}
+.nav__btn {
+  background-color:transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 7px;
+  text-transform: uppercase;
+}
+
+div .container {
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.design_todo {
+  background-color: #e1e3ea;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.todo__app {
+  width: 60%;
+  height: inherit;
+  overflow-y: scroll;
+  /* border:1px solid #de3f53; */
+  margin: 0 auto;
+}
+
+.todo__app h1 {
+  color: white;
+  font-size: 40px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: #de3f53;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.todo__app-form {
+  display: flex;
+  width: 100%;
+  background-color: #262e4c;
+}
+
+.todo__app-text {
+  border: none;
+  background-color: #3c4979;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  width: 90%;
+}
+
+.todo__app-addbtn {
+  border: none;
+  color: white;
+  background-color: #1dd2af;
+  font-size: 25px;
+  font-weight: 600;
+  height: 42px;
+  width: 10%;
+}
+
+.todo__app ul {
+  list-style: none;
+  color: #e0e0e0;
+  padding: 0;
+}
+
+.todo__app ul li {
+  padding: 10px;
+  background-color: #262e4c;
+  border-bottom: 1px solid #3a4674;
+}
+
+.check {
+  width: 0.8em;
+  height: 0.8em;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  -webkit-appearance: none;
+}
+
+.check:checked {
+  background-color: #1dd2af;
+}
+
+.task {
+  font-size: 18px;
+  padding: 0 10px;
+  width: fit-content;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.task:focus {
+  outline: none;
+}
+
+.todo__app ul li i {
+  float: right;
+  cursor: pointer;
+}
+
+.todo__app ul li i:hover {
+  color: rgb(255, 82, 82);
+}
+
+.completed {
+  color: rgba(192, 192, 192, 0.8);
+  text-decoration: line-through;
+}
+/* media query */
+@media (max-width: 768px) {
+  .app {
+    width: 90%;
+  }
+}
