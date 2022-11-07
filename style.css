@@ -39,12 +39,12 @@ div .container {
 .design_todo {
   background-color: #e1e3ea;
   height: 100vh;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .todo__app {
   width: 60%;
-  height: inherit;
+  height: 75%;
   overflow-y: scroll;
   /* border:1px solid #de3f53; */
   margin: 0 auto;
